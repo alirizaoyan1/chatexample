@@ -7,7 +7,7 @@
 
 
 
-            <form action="" >
+            <form action="/login/signup" method="post" >
 
                 <div class="container">
 
@@ -15,17 +15,14 @@
 
                     <h2>Kayıt Formu</h2>
                     <label><b>Kullanıcı Adı</b></label>
-                    <input type="text" placeholder="Kullanıcı adı girin" name="email" required>
+                    <input type="text" placeholder="Kullanıcı adı girin" name="kullaniciAdi">
 
                     <label><b>Şifre</b></label>
-                    <input type="password" placeholder="Şifrenizi girin" name="psw" required>
-
-                    <label><b>Yeniden Şifre</b></label>
-                    <input type="password" placeholder="Yeniden şifrenizi girin" name="psw-repeat" required>
+                    <input type="password" placeholder="Şifrenizi girin" name="sifre" >
 
                     <div class="clearfix">
 
-                        <button type="submit" class="signupbtn">Kayıt Ol</button>
+                        <a href="http://localhost:3000/login/signup"><button type="submit" class="signupbtn">Kayıt Ol</button></a>
                     </div>
                     </div>
                 </div>
